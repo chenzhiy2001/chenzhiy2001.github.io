@@ -1,0 +1,321 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta content="urn:uuid:49953138-1cfd-4e6e-8cd0-85ca869ac643" name="dtb:uid"/>
+    <meta content="3" name="dtb:depth"/>
+    <meta content="calibre (0.9.18)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>How to Study with Mind Maps: The Concise Learning Method for Students and Lifelong Learners (Expanded Edition)</text>
+  </docTitle>
+  <navMap>
+    <navPoint class="chapter" id="num_1" playOrder="1">
+      <navLabel>
+        <text>Advance Praise for Concise Learning</text>
+      </navLabel>
+      <content src="text/part0000.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_2" playOrder="2">
+      <navLabel>
+        <text>Copyright Page</text>
+      </navLabel>
+      <content src="text/part0001.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_3" playOrder="3">
+      <navLabel>
+        <text>Table of Contents</text>
+      </navLabel>
+      <content src="text/part0002_split_000.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_4" playOrder="4">
+      <navLabel>
+        <text>Preface</text>
+      </navLabel>
+      <content src="text/part0003_split_000.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_5" playOrder="5">
+      <navLabel>
+        <text>How to Use This Book</text>
+      </navLabel>
+      <content src="text/part0004.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_6" playOrder="6">
+      <navLabel>
+        <text>Chapter 1: Introduction to Concise Learning Method (CLM)</text>
+      </navLabel>
+      <content src="text/part0005_split_000.html"/>
+      <navPoint class="chapter" id="num_7" playOrder="7">
+        <navLabel>
+          <text>1. 1 The Need to Learn Better</text>
+        </navLabel>
+        <content src="text/part0005_split_002.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_8" playOrder="8">
+        <navLabel>
+          <text>1. 2 CLM: In a Nutshell</text>
+        </navLabel>
+        <content src="text/part0005_split_003.html#sec1-009"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_9" playOrder="9">
+        <navLabel>
+          <text>1. 3 CLM: The Benefits</text>
+        </navLabel>
+        <content src="text/part0005_split_004.html#sec1-010"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_10" playOrder="10">
+        <navLabel>
+          <text>1. 4 Does CLM Work?</text>
+        </navLabel>
+        <content src="text/part0005_split_004.html#sec1-011"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_11" playOrder="11">
+        <navLabel>
+          <text>1. 5 Will CLM Work for Me?</text>
+        </navLabel>
+        <content src="text/part0005_split_012.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_12" playOrder="12">
+        <navLabel>
+          <text>1. 6 Additional Resources</text>
+        </navLabel>
+        <content src="text/part0005_split_012.html#sec1-014"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_13" playOrder="13">
+      <navLabel>
+        <text>Chapter 2: Visual Maps: What They Are &amp; How You Draw Them</text>
+      </navLabel>
+      <content src="text/part0006_split_000.html"/>
+      <navPoint class="chapter" id="num_14" playOrder="14">
+        <navLabel>
+          <text>2. 1 Introduction</text>
+        </navLabel>
+        <content src="text/part0006_split_000.html#sec1-015"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_15" playOrder="15">
+        <navLabel>
+          <text>2. 2 Benefits and Uses of Visual Mapping</text>
+        </navLabel>
+        <content src="text/part0006_split_002.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_16" playOrder="16">
+        <navLabel>
+          <text>2. 3 How to Draw Visual Maps</text>
+        </navLabel>
+        <content src="text/part0007_split_004.html#sec1-017"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_17" playOrder="17">
+        <navLabel>
+          <text>2. 4 Visual Mapping Computer Programs</text>
+        </navLabel>
+        <content src="text/part0008_split_001.html#sec1-018"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_18" playOrder="18">
+        <navLabel>
+          <text>2. 5 Additional Resources</text>
+        </navLabel>
+        <content src="text/part0008_split_004.html#sec1-019"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_19" playOrder="19">
+      <navLabel>
+        <text>Chapter 3: Concise Learning Method (CLM)</text>
+      </navLabel>
+      <content src="text/part0010_split_000.html"/>
+      <navPoint class="chapter" id="num_20" playOrder="20">
+        <navLabel>
+          <text>3. 1 What’s Your Learning Strategy?</text>
+        </navLabel>
+        <content src="text/part0010_split_000.html#sec1-020"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_21" playOrder="21">
+        <navLabel>
+          <text>3. 2 CLM: The Strategy</text>
+        </navLabel>
+        <content src="text/part0010_split_000.html#sec1-021"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_22" playOrder="22">
+        <navLabel>
+          <text>3. 3 CLM: The 4 Repeating Steps within Each Phase</text>
+        </navLabel>
+        <content src="text/part0010_split_001.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_23" playOrder="23">
+        <navLabel>
+          <text>3. 4 CLM: The 5Ps Process</text>
+        </navLabel>
+        <content src="text/part0010_split_001.html#sec1-023"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_24" playOrder="24">
+        <navLabel>
+          <text>3. 5 Summary</text>
+        </navLabel>
+        <content src="text/part0010_split_005.html#sec1-027"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_25" playOrder="25">
+        <navLabel>
+          <text>3. 6 Additional Resources</text>
+        </navLabel>
+        <content src="text/part0010_split_005.html#sec1-028"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_26" playOrder="26">
+      <navLabel>
+        <text>Chapter 4: Applying CLM to Your Life</text>
+      </navLabel>
+      <content src="text/part0011_split_000.html"/>
+      <navPoint class="chapter" id="num_27" playOrder="27">
+        <navLabel>
+          <text>4. 1 CLM: Your Way to Effective and Efficient Learning</text>
+        </navLabel>
+        <content src="text/part0011_split_000.html#sec1-034"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_28" playOrder="28">
+        <navLabel>
+          <text>4. 2 The Missing Ingredient: YOU</text>
+        </navLabel>
+        <content src="text/part0011_split_000.html#sec1-035"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_29" playOrder="29">
+        <navLabel>
+          <text>4. 3 Your Future Is NOW</text>
+        </navLabel>
+        <content src="text/part0011_split_000.html#sec1-036"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_30" playOrder="30">
+        <navLabel>
+          <text>4. 4 You Can’t Be Successful Without Lifelong Learning</text>
+        </navLabel>
+        <content src="text/part0011_split_000.html#sec1-037"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_31" playOrder="31">
+        <navLabel>
+          <text>4. 5 Success Is a Way of Living</text>
+        </navLabel>
+        <content src="text/part0011_split_000.html#sec1-038"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_32" playOrder="32">
+        <navLabel>
+          <text>4. 6 Additional Resources</text>
+        </navLabel>
+        <content src="text/part0011_split_001.html#sec1-039"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_33" playOrder="33">
+      <navLabel>
+        <text>Bonus Chapter: Lifelong Learning with CLM</text>
+      </navLabel>
+      <content src="text/part0012_split_000.html"/>
+      <navPoint class="chapter" id="num_34" playOrder="34">
+        <navLabel>
+          <text>6.1 Why a Chapter on Lifelong Learning?</text>
+        </navLabel>
+        <content src="text/part0012_split_000.html#sec1-040"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_35" playOrder="35">
+        <navLabel>
+          <text>6.2 Professionals Are Students, Too</text>
+        </navLabel>
+        <content src="text/part0012_split_000.html#sec1-041"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_36" playOrder="36">
+        <navLabel>
+          <text>6.3 Importance of Lifelong Learning</text>
+        </navLabel>
+        <content src="text/part0012_split_000.html#sec1-042"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_37" playOrder="37">
+        <navLabel>
+          <text>6.4 Lifelong Learning in the Digital Age</text>
+        </navLabel>
+        <content src="text/part0012_split_002.html#sec1-043"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_38" playOrder="38">
+        <navLabel>
+          <text>6.5 Developing Your Personal Learning Network (PLN)</text>
+        </navLabel>
+        <content src="text/part0012_split_004.html#sec1-044"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_39" playOrder="39">
+        <navLabel>
+          <text>6.6 Design Your Personal Learning Plan</text>
+        </navLabel>
+        <content src="text/part0012_split_006.html#sec1-045"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_40" playOrder="40">
+        <navLabel>
+          <text>6.7 Why Use CLM for Lifelong Learning?</text>
+        </navLabel>
+        <content src="text/part0012_split_009.html#sec1-046"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_41" playOrder="41">
+        <navLabel>
+          <text>6.8 How to Use CLM for Lifelong Learning?</text>
+        </navLabel>
+        <content src="text/part0012_split_009.html#sec1-047"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_42" playOrder="42">
+        <navLabel>
+          <text>6.9 What To Do Next</text>
+        </navLabel>
+        <content src="text/part0012_split_024.html#sec1-048"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_43" playOrder="43">
+        <navLabel>
+          <text>6.10 References</text>
+        </navLabel>
+        <content src="text/part0012_split_025.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_44" playOrder="44">
+      <navLabel>
+        <text>Appendices</text>
+      </navLabel>
+      <content src="text/part0013_split_000.html"/>
+      <navPoint class="chapter" id="num_45" playOrder="45">
+        <navLabel>
+          <text>Your Visual Map Worksheet</text>
+        </navLabel>
+        <content src="text/part0013_split_000.html#sec1-001"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_46" playOrder="46">
+        <navLabel>
+          <text>Learning Components</text>
+        </navLabel>
+        <content src="text/part0013_split_001.html#sec1-002"/>
+      </navPoint>
+      <navPoint class="chapter" id="num_47" playOrder="47">
+        <navLabel>
+          <text>Case Study</text>
+        </navLabel>
+        <content src="text/part0013_split_003.html#sec1-003"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="num_48" playOrder="48">
+      <navLabel>
+        <text>Afterword</text>
+      </navLabel>
+      <content src="text/part0014.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_49" playOrder="49">
+      <navLabel>
+        <text>References</text>
+      </navLabel>
+      <content src="text/part0015.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_50" playOrder="50">
+      <navLabel>
+        <text>About the Author</text>
+      </navLabel>
+      <content src="text/part0016.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="num_51" playOrder="51">
+      <navLabel>
+        <text>Thank You!</text>
+      </navLabel>
+      <content src="text/part0017.html"/>
+    </navPoint>
+  </navMap>
+</ncx>

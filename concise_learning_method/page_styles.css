@@ -1,0 +1,28 @@
+@page {
+    margin-bottom: 5pt;
+    margin-top: 5pt
+    }
+@font-face {
+    font-family: "Charis";
+    src: url(fonts/00003.ttf);
+    font-style: normal;
+    font-weight: normal
+    }
+@font-face {
+    font-family: "Charis";
+    src: url(fonts/00004.ttf);
+    font-style: normal;
+    font-weight: bold
+    }
+@font-face {
+    font-family: "Charis";
+    src: url(fonts/00005.ttf);
+    font-style: italic;
+    font-weight: normal
+    }
+@font-face {
+    font-family: "Charis";
+    src: url(fonts/00006.ttf);
+    font-style: italic;
+    font-weight: bold
+    }
