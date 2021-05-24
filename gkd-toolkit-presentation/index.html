@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Through Feb.26 2020</title>
+</head>
+
+<body style="background-color:#AFBCCF">
+  <button type="button" onclick="saver()">save</button>
+  <div id='app'>
+    <node-canvas></node-canvas>
+  </div>
+  <button type="button" onclick="saver()">save</button>
+</body>
+<script src="vue.js"></script>
+<script src="data.js"></script>
+<script>
+  function saver() {
+    const originalData = myData;
+
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob(["myData=" + JSON.stringify(originalData, null, 2)], {
+      type: "text/plain"
+    }));
+    a.setAttribute("download", "data.js");
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  }
+</script>
+<script>
+  Vue.component('nodeCanvas', {
+    template: `<div><myNode v-for="item in treeFinder" :nodeId="item.nodeId" :key="item.nodeId"
+                            :pos-x="item.posX" :pos-y="item.posY" 
+                             
+                            v-on:positionChanged="positionChanger"
+
+                            v-on:addSonNode="sonNodeAdder"
+
+                            v-on:addCousinNode="cousinNodeAdder"
+               ></myNode>
+
+              <svg :width="2000" height="2000">
+                    <line v-for="line in lineFinder" 
+                    :x1="line[0]" :y1="line[1]" :x2="line[2]" :y2="line[3]" 
+                    :key="line[4]" style="stroke:rgb(0,0,0);stroke-width:2"  
+              /></svg></div>`,//TODO line也许需要id
+
+    data: function () {
+      return myData;//data in data.js
+    },
+    methods: {
+      positionChanger: function (left, top, nodeId) {
+        //   console.log(key);
+        //      console.log(nodeId);
+        this.tree[nodeId].posX = left;
+        this.tree[nodeId].posY = top;
+      },
+      sonNodeAdder: function (nodeId) {
+        let nodeAmount = this.tree.length;//a=[0,1,2] a.length=3 a.push(3)=>a[0,1,2,3]
+        //nodeAmount恰好是新节点的id
+        this.tree[nodeId].child.push(nodeAmount);
+        this.tree.push({
+          nodeId: nodeAmount,
+          title: '',
+          posX: (parseInt(this.tree[nodeId].posX) + 150) + 'px',
+          posY: this.tree[nodeId].posY,
+          child: [],
+          father: [nodeId]
+        })
+      },
+      cousinNodeAdder: function (nodeId) {
+        let nodeAmount = this.tree.length;
+        let fatherId = this.tree[nodeId].father;
+        this.tree[fatherId].child.push(nodeAmount);
+        this.tree.push({
+          nodeId: nodeAmount,
+          title: '',
+          posX: this.tree[nodeId].posX,
+          posY: (parseInt(this.tree[nodeId].posY) + 100) + 'px',
+          child: [],
+          father: [fatherId],
+        })
+
+
+
+      }
+    },
+    computed: { //计算属性
+      lineFinder: function () {
+        let result = [];
+        for (node of this.tree) {
+          for (let i = 0; i < node.child.length; i++) {
+            childLine = node.child[i];
+            result.push([node.posX, node.posY, this.tree[childLine].posX, this.tree[childLine].posY].map(function (value) { return parseInt(value) + '' }));
+          }
+        }
+        return result;
+      },
+      treeFinder: function () {
+        return this.tree;
+      }
+    },
+    watch: {
+      tree: function () {
+        console.log('treeChanged');
+        console.log(myData);
+      }
+    }
+  },
+  );
+
+  Vue.component('myNode', {
+    template: `<div id="myNode" v-bind:style="nodeStyle" @mousedown="movenode" ><textarea v-bind:style="textAreaStyle"></textarea><button type="button" style="user-select:none;" @click="sonNodeButtonClickHandler">+</button><button type="button" style="user-select:none;" @click="cousinNodeButtonHandler">||</button></div>`,
+    props: ['posX', 'posY', 'nodeId'],
+
+    //    created:function(){
+    //      this.nodeStyle.left=this.posX;
+    //      this.nodeStyle.top=this.posY;
+    //    },
+    data: function () {
+      return {
+        nodeStyle: {
+          position: 'absolute',
+          width: '120px',
+          height: '90px',
+          background: '#3F72AF',
+          left: this.posX,
+          top: this.posY,
+        },
+        textAreaStyle: {
+          width: '114px',
+          height: '60px'
+        },
+      }
+    },
+
+
+    methods: {
+      movenode(e) {
+        let this_ = this;
+
+        let odiv = e.target;    //获取目标元素
+
+        //算出鼠标相对元素的位置
+        let disX = e.clientX - odiv.offsetLeft;
+        let disY = e.clientY - odiv.offsetTop;
+        document.onmousemove = (e) => {    //鼠标按下并移动的事件
+          //用鼠标的位置减去鼠标相对元素的位置，得到元素的位置
+          let left = e.clientX - disX;
+          let top = e.clientY - disY;
+
+          //绑定元素位置到positionX和positionY上面
+          //this.positionX = top;
+          //this.positionY = left;
+
+          //移动当前元素
+          odiv.style.left = left + 'px';
+          odiv.style.top = top + 'px';//还好这两行之前没删掉，不然这个软件就要弃坑了
+          this.$emit('positionChanged', left + 'px', top + 'px', this.nodeId);
+        };
+        document.onmouseup = (e) => {
+          document.onmousemove = null;
+          document.onmouseup = null;
+        };
+      },
+      sonNodeButtonClickHandler: function () {
+        this.$emit('addSonNode', this.nodeId);
+      },
+      cousinNodeButtonHandler: function () {
+        this.$emit('addCousinNode', this.nodeId);
+      },
+
+    },
+  });
+
+  let app = new Vue({
+    el: '#app',
+
+
+  });
+
+</script>
+
+</html>
