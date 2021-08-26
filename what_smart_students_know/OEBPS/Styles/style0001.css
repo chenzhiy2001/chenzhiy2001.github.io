@@ -1,0 +1,570 @@
+ul, ol {
+	padding: 0pt;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+}
+@media all{
+	a.footnote-anchor {
+		vertical-align: super;
+		font-size: 0.5rem;
+	}
+}
+@media all{
+	a.footnote-link {
+		vertical-align: super;
+		font-size: 0.5rem;
+	}
+}
+div.footnotes {
+	margin-top: 6pt;
+	margin-bottom: 6pt;
+}
+div.generated-style {
+}
+p.x-108-0 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 1.2em;
+	text-decoration: none;
+	font-variant: normal;
+	text-indent: 0em;
+	text-align: justify;
+	text-align-last: left;
+	margin: 0pt;
+}
+p.x-38640-0 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.83333333333333rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2em;
+	text-decoration: none;
+	font-variant: normal;
+	text-indent: 1.98425196850394em;
+	text-align: justify;
+	text-align-last: left;
+	margin: 0pt;
+}
+p.x-38640-0-override {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.83333333333333rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2em;
+	text-decoration: none;
+	font-variant: normal;
+	text-indent: 0em;
+	text-align: justify;
+	text-align-last: left;
+	margin: 0pt;
+}
+p.x-38640-0-override-1 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.83333333333333rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2em;
+	text-decoration: none;
+	font-variant: normal;
+	text-indent: 0em;
+	text-align: justify;
+	text-align-last: left;
+	margin: 4.25196850393701pt 0pt 0pt 0pt;
+}
+p.x-38887-0 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.83333333333333rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 1.45454545454545em;
+	text-decoration: none;
+	font-variant: normal;
+	text-indent: 0em;
+	text-align: center;
+	margin: 0pt;
+}
+p.x-41278-0 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 1.66666666666667em;
+	text-decoration: none;
+	font-variant: normal;
+	text-indent: 0em;
+	text-align: left;
+	margin: 0pt;
+}
+p.x-111-0 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 1.2em;
+	text-decoration: none;
+	font-variant: normal;
+	text-indent: 0em;
+	text-align: justify;
+	text-align-last: left;
+	margin: 0pt;
+}
+p.x-111-0-override {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 1.2em;
+	text-decoration: none;
+	font-variant: normal;
+	text-indent: 2.01259842519685em;
+	text-align: justify;
+	text-align-last: left;
+	margin: 0pt;
+}
+p.x-111-0-override-1 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 1.2em;
+	text-decoration: none;
+	font-variant: normal;
+	text-indent: 3.35433070866142em;
+	text-align: justify;
+	text-align-last: left;
+	margin: 0pt;
+}
+p.x2-1999-0 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.08333333333333rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.46153846153846em;
+	text-decoration: none;
+	font-variant: normal;
+	text-indent: 1.54815263476681em;
+	text-align: justify;
+	text-align-last: left;
+	margin: 0pt;
+}
+p.x-1785-0 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.81666666666667rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.06122448979592em;
+	text-decoration: none;
+	font-variant: normal;
+	text-indent: 2.05367186244577em;
+	text-align: justify;
+	text-align-last: left;
+	margin: 0pt;
+}
+p.x-1787-0 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.8rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.10416666666667em;
+	text-decoration: none;
+	font-variant: normal;
+	text-indent: 2.09645669291339em;
+	text-align: justify;
+	text-align-last: left;
+	margin: 0pt 14.1732283464567pt;
+}
+p.x-1788-0 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.79166666666667rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.12631578947368em;
+	text-decoration: none;
+	font-variant: normal;
+	text-indent: 0em;
+	text-align: right;
+	margin: 0pt 14.1732283464567pt;
+}
+p.x-1785-0-override {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.81666666666667rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.06122448979592em;
+	text-decoration: none;
+	font-variant: normal;
+	text-indent: 3.35433070866142em;
+	text-align: justify;
+	text-align-last: left;
+	margin: 0pt;
+}
+p.x1-1998-0 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.41666666666667rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.11764705882353em;
+	text-decoration: none;
+	font-variant: normal;
+	text-indent: 0em;
+	text-align: center;
+	
+	margin: 0pt;
+}
+p.x-41279-0 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 1.66666666666667em;
+	text-decoration: none;
+	font-variant: normal;
+	text-indent: 0.70866141732283em;
+	text-align: left;
+	margin: 0pt;
+}
+p.x-2000-0 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.81666666666667rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.06122448979592em;
+	text-decoration: none;
+	font-variant: normal;
+	text-indent: 2.05367186244577em;
+	text-align: justify;
+	text-align-last: left;
+	margin: 0pt;
+}
+p.x-2000-0-override {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.81666666666667rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.06122448979592em;
+	text-decoration: none;
+	font-variant: normal;
+	text-indent: 0em;
+	text-align: justify;
+	text-align-last: left;
+	margin: 0pt;
+}
+p.x-2000-0-override-1 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.81666666666667rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.06122448979592em;
+	text-decoration: none;
+	font-variant: normal;
+	text-indent: 3.35433070866142em;
+	text-align: justify;
+	text-align-last: left;
+	margin: 0pt;
+}
+p.x-2000-0-override-2 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.81666666666667rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.06122448979592em;
+	text-decoration: none;
+	font-variant: normal;
+	text-indent: 0em;
+	text-align: center;
+	text-align-last: left;
+	margin: 0pt;
+}
+p.x-2000-0-override-3 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.81666666666667rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.06122448979592em;
+	text-decoration: none;
+	font-variant: normal;
+	text-indent: 1.54815263476681em;
+	text-align: justify;
+	text-align-last: left;
+	margin: 0pt;
+}
+span.no-style-override {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.79166666666667rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 1.36842105263158em;
+	text-decoration: none;
+	font-variant: normal;
+}
+span.no-style-override-1 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.68333333333333rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 1.58536585365854em;
+	text-decoration: none;
+	font-variant: normal;
+}
+span.no-style-override-2 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.65833333333333rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 1.39240506329114em;
+	text-decoration: none;
+	font-variant: normal;
+}
+span.no-style-override-3 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.65833333333333rem;
+	-webkit-transform:  scale(0.99,1);
+	-webkit-text-stroke: -webkit-text;
+	line-height: 1.39240506329114em;
+	text-decoration: none;
+	font-variant: normal;
+	vertical-align: -0.5pt;
+}
+span.no-style-override-4 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.16416666666667rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 1.43163922691482em;
+	text-decoration: none;
+	font-variant: normal;
+}
+span.no-style-override-5 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.725rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 1.51724137931035em;
+	text-decoration: none;
+	font-variant: normal;
+}
+span.no-style-override-6 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.70833333333333rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.35294117647059em;
+	text-decoration: none;
+	font-variant: normal;
+}
+span.no-style-override-7 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.83333333333333rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.2em;
+	text-decoration: none;
+	font-variant: normal;
+}
+span.no-style-override-8 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.83333333333333rem;
+	-webkit-transform: skew(-15deg);
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.2em;
+	text-decoration: none;
+	font-variant: normal;
+}
+span.x-38442-0 {
+	font-style: normal;
+	font-weight: normal;
+}
+span.x-38442-0-override {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.83333333333333rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.2em;
+	text-decoration: none;
+	font-variant: normal;
+}
+span.no-style-override-9 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.5rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 3.66666666666667em;
+	text-decoration: none;
+	font-variant: normal;
+	
+}
+span.no-style-override-10 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.83333333333333rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.02em;
+	text-decoration: none;
+	font-variant: normal;
+}
+span.no-style-override-11 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.81666666666667rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.06122448979592em;
+	text-decoration: none;
+	font-variant: normal;
+}
+span.x-1848-0 {
+	font-style: normal;
+	font-weight: normal;
+}
+span.no-style-override-12 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.5rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 3.36666666666667em;
+	text-decoration: none;
+	font-variant: normal;
+	
+}
+span.x-1848-0-override {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.81666666666667rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.06122448979592em;
+	text-decoration: none;
+	font-variant: normal;
+}
+span.no-style-override-13 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.81666666666667rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 1.37755102040816em;
+	text-decoration: none;
+	font-variant: normal;
+}
+span.x-3749-0 {
+	font-style: normal;
+	font-weight: normal;
+}
+span.x-3749-0-override {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.81666666666667rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.06122448979592em;
+	text-decoration: none;
+	font-variant: normal;
+}
+span.no-style-override-14 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.79166666666667rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.12631578947368em;
+	text-decoration: none;
+	font-variant: normal;
+}
+span.x-4465-0 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.5rem;
+	
+}
+span.x-38442-0-override-1 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.81666666666667rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.06122448979592em;
+	text-decoration: none;
+	font-variant: normal;
+}
+span.no-style-override-15 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.81666666666667rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 3.26530612244898em;
+	text-decoration: none;
+	font-variant: normal;
+}
+span.no-style-override-16 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.8rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.10416666666667em;
+	text-decoration: none;
+	font-variant: normal;
+}
+span.no-style-override-17 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.40833333333333rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.06122448979592em;
+	text-decoration: none;
+	font-variant: normal;
+	vertical-align: super;
+}
+span.no-style-override-18 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.81666666666667rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 1.97959183673469em;
+	text-decoration: none;
+	font-variant: normal;
+}
+span.x-38442-0-override-2 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.81666666666667rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 1.97959183673469em;
+	text-decoration: none;
+	font-variant: normal;
+}
+span.no-style-override-19 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.08333333333333rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.46153846153846em;
+	text-decoration: none;
+	font-variant: normal;
+}
+span.no-style-override-20 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 1.08333333333333rem;
+	-webkit-text-stroke: -webkit-text;
+	line-height: 1.49230769230769em;
+	text-decoration: none;
+	font-variant: normal;
+}
+span.x-4465-0-override {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.5rem;
+	
+	-webkit-text-stroke: -webkit-text;
+	line-height: 3.23333333333333em;
+	text-decoration: none;
+	font-variant: normal;
+}
+span.no-style-override-21 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.81666666666667rem;
+	-webkit-transform: skew(-15deg);
+	-webkit-text-stroke: -webkit-text;
+	line-height: 2.06122448979592em;
+	text-decoration: none;
+	font-variant: normal;
+}
