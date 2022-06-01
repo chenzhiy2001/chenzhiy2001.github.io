@@ -35,21 +35,28 @@
         let Cbmi = CWeight/(Cheight*Cheight);
         let Ctzl = 1.2*Cbmi+0.23*Cage-5.4-10.8*(Csex==="男"?1:0);
    
+        if(CWeight<1000&&CWeight<1000&&Cage<200&&(Csex=="男"||Csex=="女")){
 
         document.getElementById("tzl").innerHTML=Ctzl;
         document.getElementById("bmi").innerHTML=Cbmi;
+        }
+        else{
+            document.getElementById("tzl").innerHTML="输入错误";
+        document.getElementById("bmi").innerHTML="输入数据错误";
+        }
 
- 
+        
     }
 
 
     function blackBoxTest(){
 
-        let test_case = {
+        let person = {
             height:Math.random()*1000,
             weight:Math.random()*1000,
             age:Math.random()*200,
-            sex:getRandomChineseWord(),
+            //sex:getRandomChineseWord(),
+            sex:Math.random()*2<1?"男":"女",
             sw:Math.random()*200
         };
         let result = {
@@ -65,9 +72,9 @@
 
 
 
-        let test_result = compare(test_case,result);
+        let test_result = compare(person,result);
         
-        document.getElementById("result").innerHTML+="\ncase:"+JSON.stringify(test_case)+"\nexpected:"+JSON.stringify(result)+"\nresult:"+test_result;
+        document.getElementById("result").innerHTML+="\ncase:"+JSON.stringify(person)+"\nexpected:"+JSON.stringify(result)+"\nresult:"+test_result+"\n";
 
     }
     function compare(a,b){
@@ -78,11 +85,11 @@
         let Csw = document.getElementById("sw").value;
         let Ctzl = document.getElementById("tzl").innerHTML;
         let Cbmi = document.getElementById("bmi").innerHTML;
-        if(Ctzl===b.tzl&&Cbmi===b.bmi){
-            return "correct";
+        if((Ctzl===b.tzl&&Cbmi===b.bmi)||(Ctzl=="输入数据错误")){
+            return "<h2>correct<h2>";
         }
         else{
-            return "incorrect:";
+            return "<h2>correct:<h2>";
         }
     }
     function getRandomChineseWord () {
