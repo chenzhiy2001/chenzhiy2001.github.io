@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css" integrity="sha512-HqxHUkJM0SYcbvxUw5P60SzdOTy/QVwA1JJrvaXJv4q7lmbDZCmZaqz01UPOaQveoxfYRv1tHozWGPMcuTBuvQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>身体素质分析</title>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            身高: <input class="input"  type="text" id="height"><br>
+            体重: <input class="input"  type="text" id="weight"><br>
+            年龄: <input class="input"  type="text" id="age"><br>
+            性别: <input class="input"  type="text" id="sex"><br>
+            三维: <input class="input"  type="text" id="sw"><br>
+            体脂率: <br><span id="tzl"></span><br>
+            BMI指数: <br><span id="bmi"></span><br>
+            <button class="button is-link" onclick="update()">分析</button>
+        </div>
+      </section>
+
+   
+</body>
+<script>
+    function update(){
+    let Cheight = document.getElementById("height").value;
+    let CWeight = document.getElementById("weight").value;
+    let Cage = document.getElementById("age").value;
+    let Csex = document.getElementById("sex").value;
+    let Csw = document.getElementById("sw").value;
+    let Cbmi = CWeight/(Cheight*Cheight);
+    let Ctzl = 1.2*Cbmi+0.23*Cage-5.4-10.8*(Csex==="男"?1:0);
+   
+
+    document.getElementById("tzl").innerHTML=Ctzl;
+    document.getElementById("bmi").innerHTML=Cbmi;
+    }
+</script>
+
+</html>
