@@ -17,7 +17,7 @@
             体脂率: <br><span id="tzl"></span><br>
             BMI指数: <br><span id="bmi"></span><br>
             <button class="button is-link" onclick="update()" id="analysis">分析</button>
-            <button class="button is-link" onclick="update()">白盒子测试</button>
+            <button class="button is-link" onclick="setInterval(whiteBoxTest, 1000);">白盒子测试</button>
             <button class="button is-link" onclick="setInterval(blackBoxTest, 1000);">黑盒子测试</button>
             <br><span id="result">测试结果:</span><br>
         </div>
@@ -26,6 +26,7 @@
    
 </body>
 <script>
+    let whiteBoxTestBranch=0;
     function update(){
         let Cheight = document.getElementById("height").value;
         let CWeight = document.getElementById("weight").value;
@@ -35,7 +36,7 @@
         let Cbmi = CWeight/(Cheight*Cheight);
         let Ctzl = 1.2*Cbmi+0.23*Cage-5.4-10.8*(Csex==="男"?1:0);
    
-        if(CWeight<1000&&CWeight<1000&&Cage<200&&(Csex=="男"||Csex=="女")){
+        if((CWeight<1000&&CWeight<1000&&Cage<200&&(Csex=="男"||Csex=="女"))||whiteBoxTestBranch){
 
         document.getElementById("tzl").innerHTML=Ctzl;
         document.getElementById("bmi").innerHTML=Cbmi;
@@ -48,12 +49,46 @@
         
     }
 
+    function whiteBoxTest(){
+        for(;whiteBoxTestBranch<2;whiteBoxTestBranch++){
+            if(whiteBoxTestBranch){
 
+            let person = {
+            height:Math.random()*200,
+            weight:Math.random()*100,
+            age:Math.random()*200,
+            //sex:getRandomChineseWord(),
+            sex:Math.random()*2<1?"男":"女",
+            sw:Math.random()*200
+        };
+        let result = {
+            bmi:person.weight/((person.height)*person.height),
+            tzl:1.2*bmi+0.23*person.age-5.4-10.8*(person.sex==="男"?1:0)
+        }
+        let Cheight = document.getElementById("height").value;
+        let CWeight = document.getElementById("weight").value;
+        let Cage = document.getElementById("age").value;
+        let Csex = document.getElementById("sex").value;
+        let Csw = document.getElementById("sw").value;
+        document.getElementById("analysis").click();
+
+        let test_result = compare(person,result);
+        
+        document.getElementById("result").innerHTML+="\ncase:"+JSON.stringify(person)+"\nexpected:"+JSON.stringify(result)+"\nresult:"+test_result+"\n";
+
+    }
+    else{
+        if(document.getElementById("tzl").innerHTML=="输入数据错误"&&document.getElementById("bmi").innerHTML=="输入数据错误"){
+            document.getElementById("result").innerHTML+="\ncase:"+JSON.stringify(person)+"\nexpected:"+JSON.stringify(result)+"\nresult:"+test_result+"\n";
+        }
+    }
+        }
+    }
     function blackBoxTest(){
 
         let person = {
-            height:Math.random()*1000,
-            weight:Math.random()*1000,
+            height:Math.random()*200,
+            weight:Math.random()*100,
             age:Math.random()*200,
             //sex:getRandomChineseWord(),
             sex:Math.random()*2<1?"男":"女",
